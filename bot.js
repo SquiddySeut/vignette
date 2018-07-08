@@ -14,6 +14,7 @@ client.on('message', message => {
     	message.reply('pong');
   	}
     if (message.content==="ughh"){
+      cs=0;
         sp=getRandomInt(2);
         if (sp===0&&cs===0){           
             message.channel.send("Thanks for inviting me Satania");
